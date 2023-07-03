@@ -1,0 +1,24 @@
+
+<nav role="navigation" class="navbar navbar-default">
+	<div class="">
+		<a class="navbar-brand">Cybros</a>
+	</div>
+	<div class="navbar-collapse">
+		<ul class="nav navbar-nav">
+			<li><a href="/">Home</a></li>
+			
+		</ul>
+		<ul class="nav navbar-nav">
+			<li><a href="/moderatorPage">Moderator</a></li>
+			<li><a href="/analysis">Analysis</a></li>
+			<li><a href="/list-sourcesAndnews">Sources and News</a></li>
+			<li><a href="/systemFeedbackPage">FeedBack di Sistema</a></li>
+			<li><a href="/help">Help</a></li>
+			<li><a href="/logout">Logout</a></li>
+		</ul>
+		
+				  <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">MOD</a></li>
+        </ul>
+	</div>
+</nav>
