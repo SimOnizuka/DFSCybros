@@ -1,0 +1,11 @@
+Settings di configurazione – MFS CYBROS
+1.	Eclipse: Assicurarsi di avere una delle più recenti versioni di Eclipse IDE per Java Developers;
+2.	Plugin Spring Tools: È necessario scaricare dall’applicazione Eclipse -> help / Eclipse marketplace, ed installare Spring Tools 4 (aka Spring Tool Suite 4), si contraddistingue dal fatto che ha circa 2,51M di installazioni.
+3.	Importare il progetto: importare il progetta su Eclipse da File / Open project from file system.
+4.	Configurazione Database: Configurare il database di MySQL con una connessione (es. root - password) e creare uno schema nel server database configurato con un nome a proprio piacimento (es. database_name).
+5.	Configurazione le properties progetto: È necessario inoltre configurare src/main/resources/ application.properties: 
+-Nell’url per il datasource configuration inserire al posto di [database_name] il vostro schema di database precedentemente creato, togliendo le parentesi quadre (es. database_name) ->
+(es.: spring.datasource.url = jdbc:mysql://localhost:3306/database_name?allowPublicKeyRetrieval=true&useSSL=false).
+-Inserire User e Password della vostra configurazione del database, se necessario anche il numero di porta personalizzato.
+es.: spring.datasource.username = root              spring.datasource.password = password
+6.	Passi per l’esecuzione: Eseguire il progetto come Spring Boot App, collegarsi tramite il browser con l’indirizzo http://localhost:8080/ ed enjoy.
