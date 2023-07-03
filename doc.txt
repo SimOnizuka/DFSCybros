@@ -9,3 +9,4 @@ Settings di configurazione – MFS CYBROS
 -Inserire User e Password della vostra configurazione del database, se necessario anche il numero di porta personalizzato.
 es.: spring.datasource.username = root              spring.datasource.password = password
 6.	Passi per l’esecuzione: Eseguire il progetto come Spring Boot App, collegarsi tramite il browser con l’indirizzo http://localhost:8080/ ed enjoy.
+Presente nel ramo master.
